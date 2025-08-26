@@ -1,0 +1,111 @@
+body {
+  margin: 0;
+  height: 100vh;               
+  display: flex;
+  justify-content: center;     
+  align-items: center;       
+  font-family: 'Poppins', sans-serif; 
+}
+
+/*Quadrado Formulário*/
+
+.formulario{
+    justify-items: center;
+    box-shadow: 10px 10px 20px 2px rgb(109, 109, 109);
+    border-radius: 10px;
+    padding: 50px;
+    background-color: rgb(252, 173, 255);
+}
+
+.formulario h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    padding-bottom: 5px;  
+    border-bottom: 2px solid #000; 
+    position: relative;
+    top: -30px;
+}
+
+/*Campos email/senha */
+
+.email{
+    position: relative;
+    top: -10px;
+}
+
+.email input{
+    border: 1px solid black;
+    background-color: rgba(255, 255, 255, 0.582);
+    border-radius: 5px;
+    width: 200px;
+    height: 25px;
+}
+
+.senha{
+    position: relative;
+    top: -10px;
+}
+
+.senha input{
+    border: 1px solid black;
+    background-color: rgba(255, 255, 255, 0.582);
+    border-radius: 5px;
+    width: 200px;
+    height: 25px;
+}
+/*botões*/
+
+.botoes-container {
+  display: flex; 
+  justify-content: center; 
+  gap: 15px; 
+  margin-top: 20px; 
+}
+
+/* Botão Logar */
+
+.botao input {
+  border-radius: 5px;
+  border: 1px solid black;
+  cursor: pointer;
+  width: 100px;
+  height: 35px;
+}
+
+.botao input:hover {
+  background-color: black;
+  color: white;
+}
+
+/* Botão Criar */
+
+.botao-cria input {
+  border-radius: 5px;
+  border: 1px solid black;
+  cursor: pointer;
+  width: 100px;
+  height: 35px;
+}
+
+.botao-cria input:hover {
+  background-color: black;
+  color: white;
+}
+
+/*icones*/
+
+.email i{
+    margin-right: 8px;
+    font-size: 20px;
+    position: relative;
+    bottom: -4px;
+    color: black;
+}
+
+.senha i{
+    margin-right: 8px;
+    font-size: 20px;
+    position: relative;
+    bottom: -4px;
+    color: black;
+}

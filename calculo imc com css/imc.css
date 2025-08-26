@@ -1,5 +1,10 @@
 body{
         justify-items: center;
         margin-top: 25%;
-        padding-left: 48%;
+        padding-left: 46.6%;
+}
+
+.botao{
+        color: white;
+        border-radius: 5px;
 }

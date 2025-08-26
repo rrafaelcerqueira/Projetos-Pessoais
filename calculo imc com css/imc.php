@@ -38,7 +38,23 @@ if ($_SERVER["REQUEST_METHOD"] === "GET") {
     }
     $stringhtml = "<html>
                     <body>
-                        <button class:'botao' onclick='mostrarAlerta()'>Resultado</button>
+                    <style>
+                    .butao{
+                        background-color: black;
+                        color: white;
+                        border-radius: 5px;
+                        cursor: pointer;
+                        width: 100px;
+                        height: 30px;
+                    }
+
+                    :hover.butao{
+                        background-color: white;
+                        color: black;
+                        border: 2px solid black;
+                    }
+                    </style>
+                        <button class='butao' onclick='mostrarAlerta()'>Resultado</button>
 
                         <script>
                                 function mostrarAlerta() {
